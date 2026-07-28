@@ -1,0 +1,28 @@
+# Бинарники
+/server/server
+/client/client
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Данные, которые генерирует сам проект — не должны попадать в репозиторий
+/storage/
+server.log
+
+# Go
+*.test
+*.out
+go.work
+go.work.sum
+
+# IDE / редакторы
+.vscode/
+.zed/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
