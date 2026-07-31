@@ -12,7 +12,7 @@
 ## Стек
 
 - Go
-- `net/http`, `os`, `io`, `bufio`
+- errors", "fmt", "io", "log", "net/http", "os", "path/filepath"
 
 ## Структура проекта
 
@@ -54,7 +54,7 @@ go run ./client
 
 Проект в разработке, пишется по частям:
 
-- [ ] Часть 1 — сервер (upload / download / list)
+- [+] Часть 1 — сервер (upload / download / list)
 - [ ] Часть 2 — логирование
 - [ ] Часть 3 — клиент
 - [ ] Часть 4 — TCP-вариант (опционально)
