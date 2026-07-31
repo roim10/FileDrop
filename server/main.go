@@ -76,7 +76,7 @@ func listHandler(w http.ResponseWriter, r *http.Request) {
 }
 
 func main() {
-	http.HandleFunc("/update", uploadHandler)
+	http.HandleFunc("/upload", uploadHandler)
 	http.HandleFunc("/download", downloadHandler)
 	http.HandleFunc("/list", listHandler)
 	err := http.ListenAndServe(":8080", nil)
